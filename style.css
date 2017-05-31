@@ -1,0 +1,13 @@
+body{
+	margin:  0;
+	padding: 0;
+	
+	
+}
+.conteiner{
+	background: red; 
+  background: -webkit-linear-gradient(left top, red, yellow); 
+  background: -o-linear-gradient(bottom right, red, yellow); 
+  background: -moz-linear-gradient(bottom right, red, yellow); 
+  background: linear-gradient(to bottom right, red, yellow);
+}
