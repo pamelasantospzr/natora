@@ -2,10 +2,154 @@ body{
 	margin:  0;
 	padding: 0;
 	background-color: pink;
-	background: -webkit-linear-gradient(top,rgb(255, 255, 255),rgb(246, 146, 30));
+	background: -webkit-linear-gradient(top,rgb(255, 255, 255),rgb(246, 146, 30));;
 }
+
+nav{
+	position: fixed;
+	top: 10%;
+	left: 35%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 5;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+
+}
+
+nav ul li{
+	font-size:1.50em;
+	margin: 7%;
+	list-style: none;
+}
+
+header{
+
+	padding: 10%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
 	
-.menu{
+}
+
+.logo{
+	margin-top: 2%;
+	margin-left: -62%;
+	width: 20%;
+	height: 25%;
+}
+
+header div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+header h1{
+	letter-spacing: 0.1em;
+	font-size: 2.90em;
+	text-transform: uppercase;
+	text-align: left;
+	
+
+}
+
+.cor-1{
+	position:absolute;
+	top: 32%;
+	left: 34%;
+	color: #0000ff;
+}
+.cor-01{
+	position:absolute;
+	top: 43%;
+	left: 13%;
+	color: #0000ff;
+}
+
+.cor-2{
+	color: #FF0000;
+	position:absolute;
+	top: 50%;
+	left: 13%;
+	
+}
+
+
+.cor-3{
+	color: #00FF00;
+	position:absolute;
+	top: 58%;
+	left: 28%;
+
+}
+
+.cor-4{
+	color: #FFA500;
+	position:absolute;
+	top: 58%;
+	left: 64%;
+}
+.cor-04{
+	color: #FFA500;
+	position:absolute;
+	top: 65%;
+	left: 13%;
+
+}
+
+.cor-5{
+	font-size: 6em;
+	color: #000;
+	position:absolute;
+	top: 53%;
+	left: 47%;
+}
+
+.logo-2{
+	margin-top: 16%;
+	margin-left: 39%;
+	width: 30%;
+	height: 30%;
+}
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#SOBRE{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	font-size: 1.20em;
+	width: 45%;
+	height: 100%;
+}
+
+
+
+
+
+
+ 
+
+	
+/*.menu{
+	margin: 0%;
+	font-family: 'AzoSans-Bold';
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -33,18 +177,19 @@ ul li{
 nav ul li{
 	transform: scale(1.5);
 }
-/*li{
+li{
 	display: inline;
 	margin: 100px;
 	color: black; 
 	top: -400%;
-	left: -10%;*/
+	left: -10%;
 }
 
 header,section,div{
 	background-color: #000;
 	background-color: grey;
 	background-color: pink;
+
 }
 header, section{
 position: relative;
@@ -63,57 +208,65 @@ position: relative;
 	
 }
 .text1{
-	width: 40%;
-	height: 20%;
-	position: absolute;
-	text-indent: 50px
-	justify-content:center;
-	font-family: 
-	top: 100%;
-	display: flex; 
-	align-items: center;
-	
+	font-family: 'AzoSansUber-Regular';
+	font-size: 63px;
+	color:;
+	font-style: normal;
+	text-align: left;
+	line-height: 90px;
+	letter-spacing: 0.02em;
 }
 
-.p1{ 
- 	font-size: 3.0em;
-	width: 60%;
-	position: relative;
-	color:blue;
-	top: 50%;
-	left: 30%;
-	font-size: 53px;
-
+.text-blue { 
+	margin: 0%;
+	font-family: 'AzoSansUber-Regular';
+	font-size: 63px;
+	color:blue ;
+	font-style: normal;
+	text-align: left;
+	line-height: 90px;
+	letter-spacing: 0.02em;
 }
-.p2{
-	font-size: 53px;
-	width: 60%;
-	position: relative;
-	color:red;
-	top: -50px;
-	left: 10%;
+.text-red{
+	margin: 0%;
+	font-family: 'AzoSansUber-Regular';
+	font-size: 63px;
+	color: red;
+	font-style: normal;
+	text-align: left;
+	line-height: 90px;
+	letter-spacing: 0.02em;
 }
-.p3{
-	font-size: 53px;
-	position: relative;
+.text-green{
+	margin: 0%;
+	font-family: 'AzoSansUber-Regular';
+	font-size: 63px;
 	color:green;
-	top: -165px;
-	left: 25%;
+	font-style: normal;
+	text-align: left;
+	line-height: 90px;
+	letter-spacing: 0.02em;
 } 
-.p4{
-
-	font-size: 3em;
-	position: relative;
-	color:orange;
-	top: -280px;
-	left: 60%;
+.text-oranje{
+	margin: 0%;
+	font-family: 'AzoSansUber-Regular';
+	font-size: 63px;
+	color:orange ;
+	font-style: normal;
+	text-align: left;
+	line-height: 90px;
+	letter-spacing: 0.02em;
 }
-.p5{width: 10%;
-	font-size: 73px;
-	position: relative;
+.text-black{
+	margin: 0%;
+	font-family: 'AzoSansUber-Regular';
+	font-size: 63px;
 	color:black;
-	top: -450px;
-	left: 80%;
+	font-style: normal;
+	text-align: left;
+	line-height: 90px;
+	letter-spacing: 0.02em;
+
 }
 .img2{
 	width:25%; 
@@ -159,7 +312,7 @@ section{
 	font-family: ;
 	color: blue;
 	padding-top: 5%;
-	top: 640px;
+	top: 740px;
 	left: 07%;
 
 }
@@ -172,17 +325,17 @@ section{
 	justify-content: center;
 	align-items: center;
 	padding-top:20%; 
-	top: 330px;
+	top: 430px;
 	left: 7%;
 
 }
-.v1{
-	
+.ver-mais1{
 	position: relative;
 	color: red;
-	top:450px ;
+	top:550px ;
     left:7% ;
 }
+
 .text4{
 	width: ;
 	height: 15%;
@@ -192,10 +345,8 @@ section{
 	font-family: ;
 	color: blue;
 	padding-top:70px;
-	top: 85px;
+	top: 126px;
 	left: 40%;
-
-
 }
 
 .b{
@@ -205,14 +356,17 @@ section{
 	font-size: 20px;
 	justify-content: center;
 	align-items: center;
-	padding-top:%; 
-	top:55px;
+	top:80px;
 	left:40%;
-
+}
+.ver-mais2{
+	position: relative;
+	color: red;
+	top:70px ;
+    left:40% ;
 
 }
 .text5{
-	width: ;
 	height: 15%;
 	position: relative;
 	justify-content: center;
@@ -220,7 +374,7 @@ section{
 	font-family: ;
 	color: blue;
 	padding-top:70px;
-	top: -380px;
+	top: -385px;
 	left: 75%;
 
 }
@@ -234,7 +388,13 @@ section{
 	align-items: center;
 	padding-top:%; 
 	top:-440px;
-	left:75%;*/
+	left:75%;
+}
+.ver-mais3{
+	position: relative;
+	color: red;
+	top:-450px ;
+    left:75% ;
 }
 .img3{
 	width:15%; 
@@ -242,19 +402,22 @@ section{
 	position: relative;
 	justify-content: center;
 	align-items: center;
-	padding-top:0%;
-	top: -350px;
+	top: 14px;
 	left: 30%;	
+	background-color: #000;
 }
-.d{ 
+.gmail{ 
 	
-	font-family:;
-	font-size: 40.3px;
+	font-family:'AzoSansUber-Regular';
+	display: flex;
+	font-size: 28.3px ;
 	position: relative;
 	font-style: normal;
 	color: rgb(0,0,0); 
-	top: -350px;
-	left: 29%;
+	letter-spacing: 0.06em;
+
+	top: 15px;
+	left: 30%;
 }
 .face{
 	width:15%; 
@@ -264,8 +427,8 @@ section{
 	align-items: center; 
 	display: 
 	padding-top:0%;
-	top: -400px;
-	left: 20%;	
+	top: -10px;
+	left: 27%;	
 }
 .yout{
 	width:15%; 
@@ -274,8 +437,8 @@ section{
 	justify-content: center;
 	align-items: center;
 	padding-top:0%;
-	top: -400px;
-	left: 20%;	
+	top: -10px;
+	left: 22%;	
 }
 .insta{
 	width:15%; 
@@ -284,6 +447,6 @@ section{
 	justify-content: center;
 	align-items: center;
 	padding-top:0%;
-	top: -400px;
-	left: 20%;	
-}
+	top: -10px;
+	left: 17%;	
+}*/

@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-family"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"c",
+				"color-profile"
+			],
+			[
+				"f",
+				"flex-direction"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"B",
+				"black"
+			],
+			[
+				"T",
+				"target"
+			],
+			[
+				"ver",
+				"ver-mais"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
 				"backgr",
 				"background-image"
 			],
@@ -18,10 +66,6 @@
 			[
 				"fo",
 				"font-size"
-			],
-			[
-				"fon",
-				"font-style"
 			],
 			[
 				"b",
@@ -100,10 +144,6 @@
 				"color"
 			],
 			[
-				"font",
-				"font-style"
-			],
-			[
 				"font-",
 				"font-size"
 			],
@@ -124,10 +164,6 @@
 				"alt\tAttr"
 			],
 			[
-				"h",
-				"height"
-			],
-			[
 				"li",
 				"li\tTag"
 			],
@@ -142,10 +178,6 @@
 			[
 				"marg",
 				"margin"
-			],
-			[
-				"f",
-				"flex"
 			],
 			[
 				"text",
@@ -196,10 +228,6 @@
 				"section\tTag"
 			],
 			[
-				"st",
-				"stily"
-			],
-			[
 				"m",
 				"meta\tTag"
 			],
@@ -210,10 +238,6 @@
 			[
 				"fe",
 				"flex"
-			],
-			[
-				"pa",
-				"padding"
 			],
 			[
 				"col",
@@ -256,10 +280,6 @@
 				"top"
 			],
 			[
-				"c",
-				"class\tAttr"
-			],
-			[
 				"in",
 				"inline"
 			],
@@ -282,10 +302,6 @@
 			[
 				"mar",
 				"margin"
-			],
-			[
-				"ma",
-				"webkit-margin-end"
 			],
 			[
 				"wid",
@@ -340,10 +356,16 @@
 	},
 	"file_history":
 	[
-		"/home/vainaweb-7/Documentos/favela/index.html",
-		"/home/vainaweb-7/Documentos/favela/style.css",
+		"/home/vainaweb-7/Documentos/natora/video.html",
 		"/home/vainaweb-7/Documentos/natora/style.css",
 		"/home/vainaweb-7/Documentos/natora/index.html",
+		"/home/vainaweb-7/Documentos/natora/Coletivo Natora ok.docx",
+		"/home/vainaweb-7/Documentos/favelaconsciente/style.css",
+		"/home/vainaweb-7/Documentos/favelaconsciente/index.html",
+		"/home/vainaweb-7/Documentos/style.css",
+		"/home/vainaweb-7/Documentos/natora/VnW-Coletivo_Natora-Specs.pdf",
+		"/home/vainaweb-7/Documentos/favela/index.html",
+		"/home/vainaweb-7/Documentos/favela/style.css",
 		"/media/vainaweb-7/Kitran Jay/Projetos Vai Na Web/Projeto Final/styles.css",
 		"/media/vainaweb-7/Kitran Jay/Projetos Vai Na Web/Projeto Final/index.html",
 		"/media/vainaweb-7/Kitran Jay/Projetos Vai Na Web/index.html",
@@ -404,6 +426,7 @@
 		"height": 90.0,
 		"where_history":
 		[
+			"/home/vainaweb-7/Documentos/natora/Assets",
 			"/home/vainaweb-7/Documentos/natora",
 			"/home/vainaweb-7/Documentos/grazy"
 		]
