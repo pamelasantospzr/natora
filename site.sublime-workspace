@@ -4,20 +4,60 @@
 		"selected_items":
 		[
 			[
-				"font",
-				"font-family"
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"marg",
+				"margin-left"
 			],
 			[
 				"fon",
+				"font-size"
+			],
+			[
+				"l",
+				"letter-spacing"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"s",
+				"space-around"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"font",
 				"font-family"
 			],
 			[
 				"ma",
 				"margin-top"
-			],
-			[
-				"pa",
-				"padding-top"
 			],
 			[
 				"c",
@@ -30,10 +70,6 @@
 			[
 				"st",
 				"style\tTag"
-			],
-			[
-				"h",
-				"html\thtml"
 			],
 			[
 				"B",
@@ -54,10 +90,6 @@
 			[
 				"backgr",
 				"background-image"
-			],
-			[
-				"u",
-				"u\tTag"
 			],
 			[
 				"p",
@@ -136,10 +168,6 @@
 				"flex-direction"
 			],
 			[
-				"l",
-				"left"
-			],
-			[
 				"colo",
 				"color"
 			],
@@ -174,14 +202,6 @@
 			[
 				"back",
 				"background-color"
-			],
-			[
-				"marg",
-				"margin"
-			],
-			[
-				"text",
-				"text-align"
 			],
 			[
 				"im",
@@ -224,16 +244,8 @@
 				"background-color"
 			],
 			[
-				"s",
-				"section\tTag"
-			],
-			[
 				"m",
 				"meta\tTag"
-			],
-			[
-				"d",
-				"display"
 			],
 			[
 				"fe",
@@ -242,10 +254,6 @@
 			[
 				"col",
 				"color"
-			],
-			[
-				"flex",
-				"flex-direction"
 			],
 			[
 				"co",
@@ -356,12 +364,14 @@
 	},
 	"file_history":
 	[
+		"/home/vainaweb-7/Documentos/brunnoviana/styles.css",
+		"/home/vainaweb-7/Documentos/brunnoviana/index.html",
+		"/home/vainaweb-7/Documentos/favelaconsciente/style.css",
+		"/home/vainaweb-7/Documentos/favelaconsciente/index.html",
 		"/home/vainaweb-7/Documentos/natora/video.html",
 		"/home/vainaweb-7/Documentos/natora/style.css",
 		"/home/vainaweb-7/Documentos/natora/index.html",
 		"/home/vainaweb-7/Documentos/natora/Coletivo Natora ok.docx",
-		"/home/vainaweb-7/Documentos/favelaconsciente/style.css",
-		"/home/vainaweb-7/Documentos/favelaconsciente/index.html",
 		"/home/vainaweb-7/Documentos/style.css",
 		"/home/vainaweb-7/Documentos/natora/VnW-Coletivo_Natora-Specs.pdf",
 		"/home/vainaweb-7/Documentos/favela/index.html",
@@ -436,6 +446,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"10",
 			");\n",
 			"50px",
 			"52",
