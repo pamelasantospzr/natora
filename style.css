@@ -40,31 +40,35 @@ header{
 	flex-direction: column;
 	
 }
-@media screen and (max-width: 425px) {
-	nav{
-		justify-content: flex-start;
-		align-items: flex-start;
-		top:-1%;
-		left: 1%;
+			@media screen and (max-width: 425px) {
+				body{
+					max-width: 100%;
+				}
+
+				nav{
+					justify-content: flex-start;
+					align-items: flex-start;
+					top:-1%;
+					left: 1%;
 
 
-	}
-	nav ul li{
-		margin: 2%;
-	}
-	header{
-		justify-content: flex-end;
-		align-items: center;
+				}
+				nav ul li{
+					margin: 2%;
+				}
+				header{
+					justify-content: flex-end;
+					align-items: center;
 
-	}
+				}
 
-	.logo{
-		margin-left:0;
-		
-		margin-right: -50%;
-	}
-   
-}
+				.logo{
+					margin-left:0;
+					
+					margin-right: -50%;
+				}
+			   
+			}
 
 
 .logo{
@@ -157,66 +161,69 @@ header h1{
 	width: 30%;
 	height: 30%;
 }
-@media screen and (max-width: 425px) {
-	header div{
-		display: none;
-		justify-content: flex-start;
-		align-items: flex-start;
-		font-size: 13px;
-	}
-	.responsivo{
-		display: block;
-		margin-left: 6%;
-	}
-	.cor-text1{
-		color: #0000ff;
-		font-size: 2.40em;
+			@media screen and (max-width: 425px) {
+				header div{
+					display: none;
+					justify-content: flex-start;
+					align-items: flex-start;
+					font-size: 13px;
+				}
+				.responsivo{s
+					display: block;
+					margin-left: 6%;
+				}
+				.cor-text1{
+					color: #0000ff;
+					font-size: 2.40em;
 
 
-	}
-	.cor-text2{
-		color: #FF0000;
-		width: 120%;
-		font-size: 2.40em;
-		margin-top: -5%;
-		
+				}
+				.cor-text2{
+					color: #FF0000;
+					width: 120%;
+					font-size: 2.40em;
+					margin-top: -5%;
+					
 
-	}
-	.cor-text3{
-		color: #00FF00;
-		font-size: 2.40em;
-		margin-top: -5%;
-		
+				}
+				.cor-text3{
+					color: #00FF00;
+					font-size: 2.40em;
+					margin-top: -5%;
+					
 
-	}
-	.cor-text4{
-		color: #FFA500;
-		font-size: 2.40em;
-		margin-top: -5%;
-		
+				}
+				.cor-text4{
+					color: #FFA500;
+					font-size: 2.40em;
+					margin-top: -5%;
+					
 
-	}
-	.cor-text5{
+				}
+				.cor-text5{
 
-		color: #000;
-		font-size: 6em;
-		margin-top: -31%;
-		margin-left: 80%;
-		
+					color: #000;
+					font-size: 6em;
+					margin-top: -31%;
+					margin-left: 80%;
+					
 
-	}
-	.logo-2{
-		display: none;
-	}
-   
-}
+				}
+				.logo-2{
+					display: none;
+				}
+			   
+			}
 
-main{
-	display: flex;
+/*main{
+	/*display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-}
+}*/
+
+
+
 
 #SOBRE{
 	display: flex;
@@ -224,12 +231,16 @@ main{
 	align-items: center;
 	flex-direction: column;
 	font-size: 1.20em;
-	width: 45%;
+	width: 61%;
 	height: 100%;
-	margin-top: -15%;
+	margin-top: -10%;
+	position: relative;
+	left: 22%;
 }
 @media screen and (max-width: 425px) {
 	#SOBRE{
+		display: flex;
+		justify-content: center;
 		margin: 5%;
 		width: 70%;
 	}
@@ -240,14 +251,14 @@ main{
 	.foto-responsivo{
 		margin: 10%;
 		display: block;
-		width: 135%;
+		width: 136%;
 		height: 50%;
 		margin-left:  -25%;
 	}
 	.foto3-responsivo{
 		margin: 10%;
 		display: block;
-		width: 164%;
+		width: 167%;
 		height: 50%;
 		margin-left:  -31%;
 	}
@@ -281,6 +292,7 @@ main{
 
 }	
 
+	
 #AÇÕES{
 	display: flex;
 	justify-content:center;
@@ -372,6 +384,7 @@ color: #0000ff;
 
 .logo-responsivo{
 	display: none;
+
 }
 footer{
 	position: relative;
@@ -401,42 +414,83 @@ footer h1 {
 	
 }
 
-footer picture{
-	display: inline;
+footer ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
 	margin-right: 7%;
 	
 } 
-@media screen and (max-width: 425px) {
+	@media screen and (max-width: 425px) {
 		footer{
 			position: relative;
 			top: 0;
-		}
+			}
 		#CONTATO{
 			display: none;
-		}
+				}
 		footer h1{
 			margin: 20%;
 			 width: 60%;
 			 margin-top: -20%;
 			 margin-right: 25%;
 			 font-size: 1.50em;
-
-		}
+				}
 		footer picture{
 			margin-top: -10%;
-		}
+				}
 
 		.logo-responsivo{
+			justify-content: center;
+			align-items: center;
 			padding-top: -30%;
 			display: block;
-			width: 110%;
+			width: 116%;
 			top: 100%;
-		
+					
+					}
+
+		@media screen and (max-width: 768px){
+			header{
+				position: relative;
+				display: none;
+			}
 		}
+				.cor-text1{
+					color: #0000ff;
+					font-size: 2.40em;
+					top:10%;
+					left: 0%;
 
+				}
+				.cor-text2{
+					color: #FF0000;
+					width: 130%;
+					font-size: 2.40em;
+					margin-top: -5%;
+					
 
-}
+				}
+				.cor-text3{
+					color: #00FF00;
+					font-size: 2.40em;
+					margin-top: -5%;
+					
 
+				}
+				.cor-text4{
+					color: #FFA500;
+					font-size: 2.40em;
+					margin-top: -5%;
+					
 
- 
+				}
+				.cor-text5{
+
+					color: #000;
+					font-size: 6em;
+					margin-top: -31%;
+					margin-left: 80%;
+					
 

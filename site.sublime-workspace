@@ -4,12 +4,92 @@
 		"selected_items":
 		[
 			[
-				"text",
-				"text-align"
+				"margi",
+				"margin-left"
+			],
+			[
+				"to",
+				"margin-top"
 			],
 			[
 				"margin",
+				"margin"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"m",
 				"margin-left"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"FL",
+				"flex-direction"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"fl",
+				"flex-start"
+			],
+			[
+				"a",
+				"align-items"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"mr",
+				"margin"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"in",
+				"indx"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"magin-",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
 			],
 			[
 				"marg",
@@ -20,24 +100,12 @@
 				"font-size"
 			],
 			[
-				"l",
-				"letter-spacing"
-			],
-			[
-				"u",
-				"uppercase"
-			],
-			[
 				"d",
 				"div\tTag"
 			],
 			[
 				"s",
 				"space-around"
-			],
-			[
-				"h",
-				"h1\tTag"
 			],
 			[
 				"pa",
@@ -56,16 +124,8 @@
 				"font-family"
 			],
 			[
-				"ma",
-				"margin-top"
-			],
-			[
 				"c",
 				"color-profile"
-			],
-			[
-				"f",
-				"flex-direction"
 			],
 			[
 				"st",
@@ -92,10 +152,6 @@
 				"background-image"
 			],
 			[
-				"p",
-				"position"
-			],
-			[
 				"fo",
 				"font-size"
 			],
@@ -106,10 +162,6 @@
 			[
 				"w",
 				"width"
-			],
-			[
-				"tex",
-				"Text-Decoration"
 			],
 			[
 				"ass",
@@ -152,20 +204,8 @@
 				"transition-duration"
 			],
 			[
-				"t",
-				"transform"
-			],
-			[
 				"tr",
 				"transition-duration"
-			],
-			[
-				"a",
-				"absolute"
-			],
-			[
-				"fl",
-				"flex-direction"
 			],
 			[
 				"colo",
@@ -190,10 +230,6 @@
 			[
 				"al",
 				"alt\tAttr"
-			],
-			[
-				"li",
-				"li\tTag"
 			],
 			[
 				"alg",
@@ -244,10 +280,6 @@
 				"background-color"
 			],
 			[
-				"m",
-				"meta\tTag"
-			],
-			[
 				"fe",
 				"flex"
 			],
@@ -288,10 +320,6 @@
 				"top"
 			],
 			[
-				"in",
-				"inline"
-			],
-			[
 				"ha",
 				"header\tTag"
 			],
@@ -306,10 +334,6 @@
 			[
 				"align",
 				"align-items"
-			],
-			[
-				"mar",
-				"margin"
 			],
 			[
 				"wid",
@@ -348,7 +372,7 @@
 	},
 	"console":
 	{
-		"height": 0.0,
+		"height": 126.0,
 		"history":
 		[
 		]
@@ -362,15 +386,20 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/home/vainaweb-7/Documentos/natora"
+	],
 	"file_history":
 	[
-		"/home/vainaweb-7/Documentos/brunnoviana/styles.css",
-		"/home/vainaweb-7/Documentos/brunnoviana/index.html",
-		"/home/vainaweb-7/Documentos/favelaconsciente/style.css",
-		"/home/vainaweb-7/Documentos/favelaconsciente/index.html",
-		"/home/vainaweb-7/Documentos/natora/video.html",
 		"/home/vainaweb-7/Documentos/natora/style.css",
 		"/home/vainaweb-7/Documentos/natora/index.html",
+		"/home/vainaweb-7/Documentos/natora/video.html",
+		"/home/vainaweb-7/Documentos/favelaconsciente/index.html",
+		"/home/vainaweb-7/Documentos/favelaconsciente/style.css",
+		"/home/vainaweb-7/Documentos/cores/index-html",
+		"/home/vainaweb-7/Documentos/brunnoviana/styles.css",
+		"/home/vainaweb-7/Documentos/brunnoviana/index.html",
 		"/home/vainaweb-7/Documentos/natora/Coletivo Natora ok.docx",
 		"/home/vainaweb-7/Documentos/style.css",
 		"/home/vainaweb-7/Documentos/natora/VnW-Coletivo_Natora-Specs.pdf",
@@ -561,7 +590,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": false,
+	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
